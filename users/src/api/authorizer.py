@@ -277,4 +277,4 @@ class AuthPolicy(object):
         policy['policyDocument']['Statement'].extend(self._get_statement_for_effect("Deny", self.denyMethods))
 
         return policy
-#COMPLETE   
+   
